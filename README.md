@@ -26,26 +26,27 @@ This datapack adds Botany Pots support for 29 different crops and saplings:
 
 ## Installation
 
-### Method 1: Download from Releases (Recommended)
-1. Go to the [Releases page](https://github.com/TheCrazy8/compot/releases)
-2. Download the latest `compot.zip` file
-3. Place the downloaded zip file directly in your world's `datapacks` folder
-4. Reload datapacks with `/reload` or restart the server/world
+### Method 1: Download and Use Immediately (Easiest)
+1. Click the green **Code** button at the top of this page
+2. Select **Download ZIP**
+3. Extract the downloaded ZIP file
+4. Copy the **`compot`** folder from inside the extracted folder to your world's `datapacks` folder
+   - The path should be: `YourWorld/datapacks/compot/`
+5. Reload datapacks with `/reload` or restart the server/world
 
 ### Method 2: Clone the Repository
-1. Clone or download this repository
-2. **Important:** Copy the **contents** of the repository folder (not the folder itself) into your world's `datapacks` folder, OR rename the folder to `compot` and place it in your `datapacks` folder
-   - Your datapacks folder should contain: `pack.mcmeta` and `data` folder at the same level
-   - Correct structure: `datapacks/compot/pack.mcmeta` and `datapacks/compot/data/`
-   - ❌ Incorrect: `datapacks/compot-main/compot/pack.mcmeta`
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/TheCrazy8/compot.git
+   ```
+2. Copy the **`compot`** folder to your world's `datapacks` folder
 3. Reload datapacks with `/reload` or restart the server/world
 
-### Method 3: Manual Zip
-1. Download the repository as a ZIP from GitHub
-2. Extract the contents
-3. Create a new zip file containing ONLY the `pack.mcmeta` file and `data` folder (not the parent folder)
-4. Place this zip file in your world's `datapacks` folder
-5. Reload datapacks with `/reload` or restart the server/world
+### Method 3: Download from Releases
+1. Go to the [Releases page](https://github.com/TheCrazy8/compot/releases)
+2. Download the latest `compot.zip` file
+3. Extract and copy the `compot` folder to your world's `datapacks` folder
+4. Reload datapacks with `/reload` or restart the server/world
 
 ### Verifying Installation
 After installation, you can verify the datapack is loaded by running:
@@ -71,7 +72,10 @@ This datapack is designed for Minecraft 1.21.1 (pack format 48). All crop defini
 ## Troubleshooting
 
 ### Datapack not loading?
-1. **Check the folder structure**: Make sure `pack.mcmeta` and the `data` folder are at the same level inside your datapack folder/zip
+1. **Check the folder structure**: Make sure you copied the `compot` folder (which contains `pack.mcmeta` and `data`) to your datapacks folder
+   - Correct: `YourWorld/datapacks/compot/pack.mcmeta` and `YourWorld/datapacks/compot/data/`
+   - ❌ Incorrect: `YourWorld/datapacks/compot/compot/pack.mcmeta`
+   - ❌ Incorrect: `YourWorld/datapacks/compot-main/compot/pack.mcmeta`
 2. **Verify pack format**: This datapack requires Minecraft 1.21.1 (pack format 48)
 3. **Check console/logs**: Look for any error messages related to "compot" datapack
 4. **Ensure Botany Pots is installed**: This datapack requires the Botany Pots mod to be installed
