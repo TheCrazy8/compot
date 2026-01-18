@@ -2,6 +2,14 @@
 
 A Minecraft 1.21.1 datapack that integrates **Snowy Spirit**, **Regions Unexplored**, **Atmospheric**, and **Rustic Delight** mods with Botany Pots.
 
+## Quick Start
+
+**Just want to use the datapack?** 
+1. Download this repository as a ZIP
+2. Extract it
+3. Copy the `compot` folder to your world's `datapacks` folder
+4. Done! Reload with `/reload`
+
 ## Features
 
 This datapack adds Botany Pots support for 29 different crops and saplings:
@@ -25,6 +33,14 @@ This datapack adds Botany Pots support for 29 different crops and saplings:
 - Coffee
 
 ## Installation
+
+**Repository Structure:**
+```
+compot-main/          (downloaded folder)
+└── compot/           (← Copy this folder to your datapacks!)
+    ├── pack.mcmeta
+    └── data/
+```
 
 ### Method 1: Download and Use Immediately (Easiest)
 1. Click the green **Code** button at the top of this page
