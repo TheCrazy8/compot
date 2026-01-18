@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'regions_unexplored:maple_sapling'
         },
         results: [
@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'regions_unexplored:baobab_sapling'
         },
         results: [
@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'regions_unexplored:willow_sapling'
         },
         results: [
@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'regions_unexplored:eucalyptus_sapling'
         },
         results: [
@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'regions_unexplored:silver_birch_sapling'
         },
         results: [
@@ -96,7 +96,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'regions_unexplored:blackwood_sapling'
         },
         results: [
@@ -113,7 +113,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'regions_unexplored:joshua_sapling'
         },
         results: [
@@ -130,7 +130,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'regions_unexplored:magnolia_sapling'
         },
         results: [
@@ -147,7 +147,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'regions_unexplored:palm_sapling'
         },
         results: [
@@ -164,7 +164,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'regions_unexplored:cypress_sapling'
         },
         results: [
@@ -181,7 +181,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'regions_unexplored:redwood_sapling'
         },
         results: [
@@ -198,7 +198,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'regions_unexplored:pine_sapling'
         },
         results: [
@@ -215,7 +215,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'regions_unexplored:cherry_oak_sapling'
         },
         results: [
@@ -232,7 +232,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'regions_unexplored:bamboo_sapling'
         },
         results: [
@@ -249,7 +249,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'regions_unexplored:kapok_sapling'
         },
         results: [
@@ -266,7 +266,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'regions_unexplored:larch_sapling'
         },
         results: [
@@ -285,7 +285,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'atmospheric:rosewood_sapling'
         },
         results: [
@@ -302,7 +302,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'atmospheric:aspen_sapling'
         },
         results: [
@@ -319,7 +319,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'atmospheric:kousa_sapling'
         },
         results: [
@@ -336,7 +336,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'atmospheric:morado_sapling'
         },
         results: [
@@ -353,7 +353,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'atmospheric:grimwood_sapling'
         },
         results: [
@@ -370,7 +370,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'atmospheric:laurel_sapling'
         },
         results: [
@@ -387,7 +387,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 3600,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'atmospheric:yucca_sapling'
         },
         results: [
@@ -404,7 +404,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 2400,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'atmospheric:aloe_vera'
         },
         results: [
@@ -420,7 +420,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 2400,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'atmospheric:passion_vine'
         },
         results: [
@@ -438,7 +438,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 2400,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'snowyspirit:ginger_crop'
         },
         results: [
@@ -455,7 +455,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 2400,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'rusticdelight:bell_pepper_crop'
         },
         results: [
@@ -472,7 +472,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 2400,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'rusticdelight:cotton_crop'
         },
         results: [
@@ -488,7 +488,7 @@ ServerEvents.recipes(event => {
         categories: ['dirt'],
         growthTicks: 2800,
         display: {
-            type: 'botanypots:aging',
+            type: 'block',
             block: 'rusticdelight:coffee_crop'
         },
         results: [

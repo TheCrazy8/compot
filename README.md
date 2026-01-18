@@ -14,6 +14,8 @@ A Minecraft 1.21.1 KubeJS script that integrates **Snowy Spirit**, **Regions Une
 
 This KubeJS script adds Botany Pots support for 29 different crops and saplings:
 
+> **Note:** This repository now uses KubeJS for better compatibility and reliability. The old datapack format has been replaced with KubeJS scripts. If you need the legacy datapack version, it's still available in the `compot/` folder, but KubeJS is the recommended method.
+
 ### Regions Unexplored (16 saplings)
 - Maple, Baobab, Willow, Eucalyptus
 - Silver Birch, Blackwood, Joshua, Magnolia
