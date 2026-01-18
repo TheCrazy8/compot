@@ -245,7 +245,7 @@ ServerEvents.recipes(event => {
         ]
     });
     
-    // ========== ATMOSPHERIC SAPLINGS ==========
+    // ========== ATMOSPHERIC SAPLINGS AND CROPS ==========
     
     // Rosewood Sapling
     event.custom({
