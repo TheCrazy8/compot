@@ -129,8 +129,8 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'botanypots:crop',
         seed: { item: 'regions_unexplored:palm_sapling' },
-        categories: ['dirt'],
-        growthTicks: 3600,
+        categories: ['dirt', 'sand'],
+        growthTicks: 3800,
         display: { block: 'regions_unexplored:palm_sapling' },
         results: [
             { chance: 1.0, output: { item: 'regions_unexplored:palm_log' }, minRolls: 1, maxRolls: 4 },
@@ -160,7 +160,7 @@ ServerEvents.recipes(event => {
         type: 'botanypots:crop',
         seed: { item: 'regions_unexplored:redwood_sapling' },
         categories: ['dirt'],
-        growthTicks: 3600,
+        growthTicks: 4200,
         display: { block: 'regions_unexplored:redwood_sapling' },
         results: [
             { chance: 1.0, output: { item: 'regions_unexplored:redwood_log' }, minRolls: 1, maxRolls: 4 },
@@ -205,7 +205,7 @@ ServerEvents.recipes(event => {
         type: 'botanypots:crop',
         seed: { item: 'regions_unexplored:bamboo_sapling' },
         categories: ['dirt'],
-        growthTicks: 3600,
+        growthTicks: 2800,
         display: { block: 'regions_unexplored:bamboo_sapling' },
         results: [
             { chance: 1.0, output: { item: 'regions_unexplored:bamboo_log' }, minRolls: 1, maxRolls: 4 },
@@ -220,7 +220,7 @@ ServerEvents.recipes(event => {
         type: 'botanypots:crop',
         seed: { item: 'regions_unexplored:kapok_sapling' },
         categories: ['dirt'],
-        growthTicks: 3600,
+        growthTicks: 4000,
         display: { block: 'regions_unexplored:kapok_sapling' },
         results: [
             { chance: 1.0, output: { item: 'regions_unexplored:kapok_log' }, minRolls: 1, maxRolls: 4 },
@@ -312,7 +312,7 @@ ServerEvents.recipes(event => {
         type: 'botanypots:crop',
         seed: { item: 'atmospheric:grimwood_sapling' },
         categories: ['dirt'],
-        growthTicks: 3600,
+        growthTicks: 3800,
         display: { block: 'atmospheric:grimwood_sapling' },
         results: [
             { chance: 1.0, output: { item: 'atmospheric:grimwood_log' }, minRolls: 1, maxRolls: 4 },
@@ -342,7 +342,7 @@ ServerEvents.recipes(event => {
         type: 'botanypots:crop',
         seed: { item: 'atmospheric:yucca_sapling' },
         categories: ['dirt'],
-        growthTicks: 3600,
+        growthTicks: 3800,
         display: { block: 'atmospheric:yucca_sapling' },
         results: [
             { chance: 1.0, output: { item: 'atmospheric:yucca_log' }, minRolls: 1, maxRolls: 4 },
@@ -356,13 +356,13 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'botanypots:crop',
         seed: { item: 'atmospheric:aloe_vera' },
-        categories: ['dirt'],
+        categories: ['dirt', 'sand'],
         growthTicks: 2400,
         display: { block: 'atmospheric:aloe_vera' },
         results: [
-            { chance: 1.0, output: { item: 'atmospheric:aloe_vera' }, minRolls: 2, maxRolls: 4 },
-            { chance: 0.15, output: { item: 'atmospheric:aloe_vera' }, minRolls: 1, maxRolls: 2 },
-            { chance: 0.1, output: { item: 'atmospheric:aloe_leaves' }, minRolls: 1, maxRolls: 2 }
+            { chance: 1.0, output: { item: 'atmospheric:aloe_leaves' }, minRolls: 2, maxRolls: 4 },
+            { chance: 0.5, output: { item: 'atmospheric:aloe_gel_block' }, minRolls: 1, maxRolls: 1 },
+            { chance: 0.25, output: { item: 'atmospheric:aloe_vera' }, minRolls: 1, maxRolls: 1 }
         ]
     });
     
@@ -371,11 +371,10 @@ ServerEvents.recipes(event => {
         type: 'botanypots:crop',
         seed: { item: 'atmospheric:passion_vine' },
         categories: ['dirt'],
-        growthTicks: 2400,
+        growthTicks: 2800,
         display: { block: 'atmospheric:passion_vine' },
         results: [
-            { chance: 1.0, output: { item: 'atmospheric:passion_vine' }, minRolls: 2, maxRolls: 4 },
-            { chance: 0.5, output: { item: 'atmospheric:passion_vine_fruit' }, minRolls: 1, maxRolls: 2 },
+            { chance: 1.0, output: { item: 'atmospheric:passionfruit' }, minRolls: 1, maxRolls: 3 },
             { chance: 0.15, output: { item: 'atmospheric:passion_vine' }, minRolls: 1, maxRolls: 2 }
         ]
     });
