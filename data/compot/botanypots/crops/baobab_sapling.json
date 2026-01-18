@@ -1,0 +1,47 @@
+{
+  "seed": {
+    "item": "regions_unexplored:baobab_sapling"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 4200,
+  "display": {
+    "type": "block",
+    "block": "regions_unexplored:baobab_sapling"
+  },
+  "results": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "regions_unexplored:baobab_log"
+      },
+      "minRolls": 1,
+      "maxRolls": 4
+    },
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "regions_unexplored:baobab_leaves"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "regions_unexplored:baobab_sapling"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}

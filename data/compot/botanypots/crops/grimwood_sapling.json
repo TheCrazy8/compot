@@ -1,0 +1,47 @@
+{
+  "seed": {
+    "item": "atmospheric:grimwood_sapling"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 3800,
+  "display": {
+    "type": "block",
+    "block": "atmospheric:grimwood_sapling"
+  },
+  "results": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "atmospheric:grimwood_log"
+      },
+      "minRolls": 1,
+      "maxRolls": 4
+    },
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "atmospheric:grimwood_leaves"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "atmospheric:grimwood_sapling"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}

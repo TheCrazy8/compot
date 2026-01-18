@@ -1,0 +1,48 @@
+{
+  "seed": {
+    "item": "atmospheric:yucca_sapling"
+  },
+  "categories": [
+    "dirt",
+    "sand"
+  ],
+  "growthTicks": 3800,
+  "display": {
+    "type": "block",
+    "block": "atmospheric:yucca_sapling"
+  },
+  "results": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "atmospheric:yucca_log"
+      },
+      "minRolls": 1,
+      "maxRolls": 4
+    },
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "atmospheric:yucca_leaves"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "atmospheric:yucca_sapling"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}

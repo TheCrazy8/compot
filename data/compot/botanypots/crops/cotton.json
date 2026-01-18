@@ -1,0 +1,39 @@
+{
+  "seed": {
+    "item": "rusticdelight:cotton_seeds"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "type": "block",
+    "block": "rusticdelight:cotton_crop"
+  },
+  "results": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "rusticdelight:cotton"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "rusticdelight:cotton_seeds"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "item": "minecraft:string"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}

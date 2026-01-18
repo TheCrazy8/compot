@@ -1,0 +1,40 @@
+{
+  "seed": {
+    "item": "atmospheric:aloe_vera"
+  },
+  "categories": [
+    "dirt",
+    "sand"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "type": "block",
+    "block": "atmospheric:aloe_vera"
+  },
+  "results": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "atmospheric:aloe_leaves"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "atmospheric:aloe_gel_block"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "atmospheric:aloe_vera"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}
