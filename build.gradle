@@ -15,10 +15,6 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
 repositories {
     mavenCentral()
-    maven {
-        name = 'KubeJS'
-        url = 'https://maven.latvian.dev/'
-    }
 }
 
 neoForge {
@@ -45,10 +41,6 @@ neoForge {
             sourceSet sourceSets.main
         }
     }
-}
-
-dependencies {
-    compileOnly "dev.latvian.mods:kubejs-neoforge:${kubejs_version}"
 }
 
 tasks.withType(ProcessResources).configureEach {
