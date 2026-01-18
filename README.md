@@ -1,6 +1,41 @@
-# Compot - Comprehensive Botany Pots Integration
+# Compot - Comprehensive Botany Pots Integration + KubeJS GUI Editor
 
-A Minecraft 1.21.1 KubeJS script that integrates **Snowy Spirit**, **Regions Unexplored**, **Atmospheric**, and **Rustic Delight** mods with Botany Pots.
+A Minecraft 1.21.1 KubeJS script pack that integrates **Snowy Spirit**, **Regions Unexplored**, **Atmospheric**, and **Rustic Delight** mods with Botany Pots, plus a GUI editor mod for creating KubeJS recipes.
+
+## 🆕 NEW: KubeJS GUI Editor Mod
+
+We've added a powerful in-game GUI editor that makes creating KubeJS recipes easy! No more manually editing script files.
+
+### Features
+- **In-game GUI** - Press `K` (configurable) to open the recipe editor
+- **Multiple Recipe Types Supported:**
+  - Botany Pots (crops, soils, fertilizers)
+  - Vanilla Crafting (shaped, shapeless, smelting, smoking, blasting, campfire)
+  - Stonecutting & Smithing
+  - Create Mod (crushing, mixing, filling, and more)
+  - Farmer's Delight (cooking pot, cutting board)
+- **Auto-generate Scripts** - Creates properly formatted KubeJS scripts
+- **Save to File** - Scripts are automatically saved to `kubejs/server_scripts/` folder
+
+### Installation (GUI Editor Mod)
+1. Download the latest `.jar` file from [Releases](https://github.com/TheCrazy8/compot/releases)
+2. Place it in your `mods` folder alongside KubeJS
+3. Launch Minecraft 1.21.1 with NeoForge
+4. Press `K` in-game to open the editor
+5. Create recipes using the GUI forms
+6. Click "Generate & Download Script" to save
+
+### Building from Source
+```bash
+git clone https://github.com/TheCrazy8/compot.git
+cd compot
+./gradlew build
+# JAR will be in build/libs/
+```
+
+---
+
+## KubeJS Script Pack (Original Feature)
 
 ## Quick Start
 
@@ -75,6 +110,7 @@ After installation, you can verify the script is loaded by:
 
 ## Requirements
 
+### For KubeJS Scripts:
 - Minecraft 1.21.1
 - **KubeJS mod** (required to run the scripts)
 - Botany Pots mod
@@ -83,6 +119,11 @@ After installation, you can verify the script is loaded by:
   - Atmospheric
   - Snowy Spirit
   - Rustic Delight
+
+### For GUI Editor Mod:
+- Minecraft 1.21.1
+- **NeoForge** (21.1.x or higher)
+- **KubeJS mod** (optional but recommended)
 
 ## Compatibility
 
@@ -112,3 +153,11 @@ This script is designed for Minecraft 1.21.1 with KubeJS. All crop definitions u
 ## Credits
 
 Created for integration between multiple popular Minecraft mods and the Botany Pots automation system.
+
+### GUI Editor
+- Supports KubeJS recipe generation for multiple mods
+- Open source - contributions welcome!
+
+## License
+
+MIT License - See LICENSE file for details
