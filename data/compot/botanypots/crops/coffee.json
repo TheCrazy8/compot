@@ -1,0 +1,31 @@
+{
+  "seed": {
+    "item": "rusticdelight:coffee_beans"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 2800,
+  "display": {
+    "type": "block",
+    "block": "rusticdelight:coffee_crop"
+  },
+  "results": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "rusticdelight:coffee_beans"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.2,
+      "output": {
+        "item": "rusticdelight:coffee_beans"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}

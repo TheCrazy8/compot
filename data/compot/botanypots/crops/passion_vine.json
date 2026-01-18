@@ -1,0 +1,39 @@
+{
+  "seed": {
+    "item": "atmospheric:passion_vine"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 2800,
+  "display": {
+    "type": "block",
+    "block": "atmospheric:passion_vine"
+  },
+  "results": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "atmospheric:passion_vine"
+      },
+      "minRolls": 1,
+      "maxRolls": 3
+    },
+    {
+      "chance": 0.75,
+      "output": {
+        "item": "atmospheric:passionfruit"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "atmospheric:passion_vine"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}

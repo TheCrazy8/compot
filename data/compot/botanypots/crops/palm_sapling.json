@@ -1,0 +1,48 @@
+{
+  "seed": {
+    "item": "regions_unexplored:palm_sapling"
+  },
+  "categories": [
+    "dirt",
+    "sand"
+  ],
+  "growthTicks": 3800,
+  "display": {
+    "type": "block",
+    "block": "regions_unexplored:palm_sapling"
+  },
+  "results": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "regions_unexplored:palm_log"
+      },
+      "minRolls": 1,
+      "maxRolls": 4
+    },
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "regions_unexplored:palm_leaves"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "regions_unexplored:palm_sapling"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}

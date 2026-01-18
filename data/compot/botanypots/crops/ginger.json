@@ -1,0 +1,31 @@
+{
+  "seed": {
+    "item": "snowyspirit:ginger"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "type": "block",
+    "block": "snowyspirit:ginger_crop"
+  },
+  "results": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "snowyspirit:ginger"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "snowyspirit:ginger"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}

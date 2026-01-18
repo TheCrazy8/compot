@@ -1,0 +1,47 @@
+{
+  "seed": {
+    "item": "atmospheric:laurel_sapling"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 3600,
+  "display": {
+    "type": "block",
+    "block": "atmospheric:laurel_sapling"
+  },
+  "results": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "atmospheric:laurel_log"
+      },
+      "minRolls": 1,
+      "maxRolls": 4
+    },
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "atmospheric:laurel_leaves"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "atmospheric:laurel_sapling"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}
